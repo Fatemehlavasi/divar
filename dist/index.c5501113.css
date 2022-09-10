@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.card .card__body {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 5px;
+  display: flex;
+}
+
+.card .card__body figure {
+  margin: 0;
+  padding: 0;
+}
+
+.card .card__body figure img {
+  width: 163px;
+  height: 163px;
+  border-radius: 5px;
+}
+
+.card .card__details {
+  flex-direction: column;
+  display: flex;
+}
+
+.card .card__details .card__title {
+  color: #000;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card .card__details .card__price, .card .card__details .card__author {
+  color: gray;
+}
+
+/*# sourceMappingURL=index.c5501113.css.map */
